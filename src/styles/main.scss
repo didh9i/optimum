@@ -1,0 +1,37 @@
+@import 'stars';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #DDD;
+  font-family: -apple-system, "SF Pro Text", "Segoe UI", sans-serif;
+}
+
+html {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+html, body {
+  display:   flex;
+  flex-flow: column;
+  width:     100vw;
+  max-height: 100vh;
+  flex-grow: 1;
+  align-items: center;
+}
+
+body {
+  max-width: 1920px;
+}
+
+.card {
+  background-color: #0C0C0CC0;
+  border-radius:    8px;
+  padding:          24px 16px;
+  border:           1px solid #757575;
+  box-shadow:       0 0 1rem 0 rgba(28, 11, 11, 0.2);
+  backdrop-filter:  blur(1px);
+}
