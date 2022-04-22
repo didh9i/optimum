@@ -15,11 +15,15 @@ $shadows-medium: multiple-box-shadow(64);
 $shadows-big: multiple-box-shadow(32);
 
 html {
+  background-image: radial-gradient(ellipse at bottom, #002138 0%, #0C0C0C 100%);
+  background-color: #002138;
+  background-attachment: fixed;
+  background-size: 100vw 100vh;
+  background-position: 0 0;
   height: 100%;
-  background: radial-gradient(ellipse at bottom, #002138 0%, #0C0C0C 100%);
-  overflow: hidden;
 }
 #stars {
+  position: absolute;
   width: 1px;
   height: 1px;
   background: transparent;
@@ -38,6 +42,7 @@ html {
   }
 }
 #stars2 {
+  position: absolute;
   width: 2px;
   height: 2px;
   background: transparent;
@@ -56,6 +61,7 @@ html {
   }
 }
 #stars3 {
+  position: absolute;
   width: 3px;
   height: 3px;
   background: transparent;
@@ -75,12 +81,12 @@ html {
 }
 @keyframes animStar {
   from {
-    transform: translate(-900px, -4320px);
+    transform: translate(-900px, -2160px);
   }
   50% {
     transform: translate(-1020px, -3240px);
   }
   to {
-    transform: translate(-900px, -2160px);
+    transform: translate(-900px, -4320px);
   }
 };

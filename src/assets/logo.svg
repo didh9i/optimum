@@ -1,30 +1,23 @@
 <svg width="64" height="16" viewBox="0 0 64 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_9_6)">
-<rect x="0.426788" y="3.05025" width="14" height="14" rx="4" transform="rotate(-15 0.426788 3.05025)" fill="white"/>
-<rect x="4.10101" y="5.17157" width="8" height="8" rx="2" transform="rotate(-15 4.10101 5.17157)" fill="#2B2B2B"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M26 6C26 4.89543 25.1046 4 24 4H20C18.8954 4 18 4.89543 18 6V10C18 11.1046 18.8954 12 20 12H24C25.1046 12 26 11.1046 26 10V6ZM23 6H21C20.4477 6 20 6.44772 20 7V9C20 9.55228 20.4477 10 21 10H23C23.5523 10 24 9.55228 24 9V7C24 6.44772 23.5523 6 23 6Z" fill="white"/>
-<rect x="18" y="6" width="2" height="8" rx="1" fill="white"/>
-<rect x="27" y="7" width="6" height="2" rx="1" fill="white"/>
-<rect x="27" y="12" width="6" height="2" rx="1" fill="white"/>
-<rect x="34" y="6" width="2" height="6" rx="1" fill="white"/>
-<rect x="34" y="3" width="2" height="2" rx="1" fill="white"/>
-<rect x="6.55051" y="6.58578" width="4" height="4" rx="1" transform="rotate(-15 6.55051 6.58578)" fill="white"/>
-<rect x="37" y="4" width="2" height="8" rx="1" fill="white"/>
-<rect x="43" y="4" width="2" height="8" rx="1" fill="white"/>
-<rect x="38.0037" y="3.46446" width="6.2242" height="2" rx="1" transform="rotate(45 38.0037 3.46446)" fill="white"/>
-<rect width="6.2242" height="2" rx="1" transform="matrix(-0.707107 0.707107 0.707107 0.707107 43.9906 3.46446)" fill="white"/>
-<rect x="55" y="4" width="2" height="8" rx="1" fill="white"/>
-<rect x="61" y="4" width="2" height="8" rx="1" fill="white"/>
-<rect x="56.0037" y="3.46446" width="6.2242" height="2" rx="1" transform="rotate(45 56.0037 3.46446)" fill="white"/>
-<rect width="6.2242" height="2" rx="1" transform="matrix(-0.707107 0.707107 0.707107 0.707107 61.9906 3.46446)" fill="white"/>
-<rect x="46" y="4" width="2" height="8" rx="1" fill="white"/>
-<rect x="52" y="4" width="2" height="8" rx="1" fill="white"/>
-<rect x="54" y="10" width="2" height="8" rx="1" transform="rotate(90 54 10)" fill="white"/>
-<path d="M31.548 3.58356C31.691 3.0501 31.3744 2.50176 30.8409 2.35882C30.3075 2.21588 29.7591 2.53246 29.6162 3.06592L27.028 12.7252C26.885 13.2586 27.2016 13.807 27.7351 13.9499C28.2686 14.0929 28.8169 13.7763 28.9598 13.2428L31.548 3.58356Z" fill="white"/>
-</g>
-<defs>
-<clipPath id="clip0_9_6">
-<rect width="64" height="16" fill="white"/>
-</clipPath>
-</defs>
+<rect x="2" y="1" width="14" height="14" rx="4" fill="white"/>
+<rect x="5" y="4" width="8" height="8" rx="2" fill="#2B2B2B"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M25 6C25 4.89543 24.1046 4 23 4H19C17.8954 4 17 4.89543 17 6V10C17 11.1046 17.8954 12 19 12H23C24.1046 12 25 11.1046 25 10V6ZM22 6H20C19.4477 6 19 6.44772 19 7V9C19 9.55228 19.4477 10 20 10H22C22.5523 10 23 9.55228 23 9V7C23 6.44772 22.5523 6 22 6Z" fill="white"/>
+<rect x="17" y="6" width="2" height="8" rx="1" fill="white"/>
+<rect x="28" y="12" width="4" height="2" rx="1" fill="white"/>
+<rect x="26" y="4" width="6" height="2" rx="1" fill="white"/>
+<rect x="33" y="6" width="2" height="6" rx="1" fill="white"/>
+<rect x="33" y="2" width="2" height="2" rx="1" fill="white"/>
+<rect x="7" y="6" width="4" height="4" rx="1" fill="white"/>
+<rect x="36" y="4" width="2" height="8" rx="1" fill="white"/>
+<rect x="42" y="4" width="2" height="8" rx="1" fill="white"/>
+<rect x="37.0037" y="3.46448" width="6.2242" height="2" rx="1" transform="rotate(45 37.0037 3.46448)" fill="white"/>
+<rect width="6.2242" height="2" rx="1" transform="matrix(-0.707107 0.707107 0.707107 0.707107 42.9907 3.46448)" fill="white"/>
+<rect x="54" y="4" width="2" height="8" rx="1" fill="white"/>
+<rect x="60" y="4" width="2" height="8" rx="1" fill="white"/>
+<rect x="55.0037" y="3.46448" width="6.2242" height="2" rx="1" transform="rotate(45 55.0037 3.46448)" fill="white"/>
+<rect width="6.2242" height="2" rx="1" transform="matrix(-0.707107 0.707107 0.707107 0.707107 60.9907 3.46448)" fill="white"/>
+<rect x="45" y="4" width="2" height="8" rx="1" fill="white"/>
+<rect x="51" y="4" width="2" height="8" rx="1" fill="white"/>
+<rect x="53" y="10" width="2" height="8" rx="1" transform="rotate(90 53 10)" fill="white"/>
+<rect x="28" y="2" width="2" height="12" rx="1" fill="white"/>
 </svg>

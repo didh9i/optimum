@@ -1,0 +1,122 @@
+:root {
+  @media screen {
+    &:not([data-theme]),
+    &[data-theme='dark'] {
+      // UI Labels and static text
+      --text:                             #FFF;
+      --text-secondary:                   #FFFFFFC8;
+      --text-disabled:                    #FFFFFF5D;
+
+      // Links
+      --text-accent:                      #99EBFF;
+      --text-accent-secondary:            #60CDFF;
+      --text-accent-disabled:             #FFFFFF5D;
+
+      // UI Labels and static text on accent background
+      --text-on-accent:                   #000;
+      --text-on-accent-selected:          #00000080;
+      --text-on-accent-disabled:          #FFF;
+
+      // Fill color for standard controls
+      // Button
+      // Dropdown
+      // Search
+      --control:                          #FFFFFF0F;
+      --control-hover:                    #FFFFFF15;
+      --control-pressed:                  #FFFFFF08;
+      --control-disabled:                 #FFFFFF0B;
+      --control-active:                   #1E1E1EB2;
+
+      // Fill used for the 'off' states of toggle type controls
+      // Toggle
+      // Radio
+      // Checkbox
+      // Rating Control
+      --control-alt:                      #0000001A;
+      --control-alt-hover:                #FFFFFF0B;
+      --control-alt-pressed:              #FFFFFF12;
+      --control-alt-disabled:             #1C1C1C;
+
+      // Used for control fills that must meet contrast ratio
+      // Scroll bar
+      // Slider
+      // Flip view
+      --control-strong:                   #FFFFFF8B;
+      --control-strong-disable:           #FFFFFF3F;
+
+      // Used for list items and fills
+      // that are transparent at rest and appear upon interaction.
+      --subtle:                           #FFFFFF00;
+      --subtle-hover:                     #FFFFFF0F;
+      --subtle-pressed:                   #FFFFFF0B;
+      --subtle-disabled:                  #FFFFFF00;
+
+      // Used for accent fills on controls
+      // Primary button
+      // Selected toggle control
+      --accent:                           #60CDFF;
+      --accent-hover:                     #60CDFFE5;
+      --accent-pressed:                   #60CDFFCC;
+      --accent-disabled:                  #FFFFFF28;
+      --accend-selected-text-background:  #0078D4;
+
+      --button-background:                #FFFFFF0F;
+      --button-border:                    #FFFFFF18;
+      --button-color:                     #FFFFFF;
+
+      --button-hover-background:          #FFFFFF15;
+      --button-active-background:         #FFFFFF08;
+      --button-active-border:             #FFFFFF12;
+
+      --button-disabled-background:       #FFFFFF0B;
+      --button-disabled-border:           #FFFFFF12;
+      --button-disabled-color:            #FFFFFF5D;
+
+
+      --control-text-background:          #FFFFFF0F;
+      --control-text-border:              #FFFFFF14;
+      --control-text-detail:              #FFFFFF8B;
+      --control-text-color:               #FFF;
+      --control-text-placeholder:         #FFFFFF48;
+
+      --control-text-hover-background:    #FFFFFF15;
+
+      --control-text-active-background:   #1E1E1EB2;
+      --control-text-active-border:       #FFFFFF12;
+      --control-text-active-detail:       #60CDFF;
+
+      --control-text-disabled-background: #FFFFFF0B;
+      --control-text-disabled-border:     #FFFFFF12;
+      --control-text-disabled-color:      #FFFFFF5D;
+      --control-text-disabled-detail:     #FFFFFF00;
+
+      --focus-outline:                    #FFF;
+      --focus-inner:                      #000000B2;
+
+      // Card
+      --card-border:                      #75757566;
+      --card-background:                  #FFFFFF0D;
+      --card-secondary-background:        #FFFFFF08;
+      --card-solid-background:            #202020;
+      --card-solid-secondary-background:  #2C2C2C;
+      --card-smoke-background:            #0000004D;
+      --card-layer-background:            #FFFFFF09;
+      --card-accent-background:           #003F92CC;
+      --card-shadow:                      0px 16px 32px #0000005E, 0px 2px 10.67px #0000005E;
+
+      // System
+      --system-attention:                 #60CDFF;
+      --system-success:                   #6CCB5F;
+      --system-caution:                   #FCE100;
+      --system-critical:                  #FF99A4;
+      --system-neutral:                   #FFFFFF8B;
+      --system-processing:                repeating-linear-gradient(90deg, var(--system-attention), var(--system-neutral) 16px, var(--system-attention) 32px);
+
+      --system-attention-background:      #2E2E2E;
+      --system-success-background:        #393D1B;
+      --system-caution-background:        #433519;
+      --system-critical-background:       #442726;
+      --system-neutral-background:        #2E2E2E;
+    }
+  }
+}

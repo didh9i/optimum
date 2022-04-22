@@ -1,0 +1,98 @@
+:root {
+  @media screen {
+    &[data-theme='light'] {
+      // UI Labels and static text
+      --text:                            #000000E4;
+      --text-secondary:                  #0000009B;
+      --text-disabled:                   #0000005C;
+
+      // Links
+      --text-accent:                     #003E92;
+      --text-accent-secondary:           #001A68;
+      --text-accent-disabled:            #0000005C;
+
+      // UI Labels and static text on accent background
+      --text-on-accent:                  #FFF;
+      --text-on-accent-selected:         #FFF;
+      --text-on-accent-disabled:         #FFFFFFB2;
+
+      // Fill color for standard controls
+      // Button
+      // Dropdown
+      // Search
+      --control:                         #FFFFFFB2;
+      --control-hover:                   #F9F9F980;
+      --control-pressed:                 #F9F9F94D;
+      --control-disabled:                #F9F9F94D;
+      --control-active:                  #FFF;
+
+      // Fill used for the 'off' states of toggle type controls
+      // Toggle
+      // Radio
+      // Checkbox
+      // Rating Control
+      --control-alt:                     #00000006;
+      --control-alt-hover:               #0000000F;
+      --control-alt-pressed:             #00000018;
+      --control-alt-disabled:            #EEE;
+
+      // Used for control fills that must meet contrast ratio
+      // Scroll bar
+      // Slider
+      // Flip view
+      --control-strong:                  #00000072;
+      --control-strong-disable:          #00000051;
+
+      // Used for list items and fills
+      // that are transparent at rest and appear upon interaction.
+      --subtle:                          #00000000;
+      --subtle-hover:                    #0000000A;
+      --subtle-pressed:                  #00000006;
+      --subtle-disabled:                 #00000000;
+
+      // Used for accent fills on controls
+      // Primary button
+      // Selected toggle control
+      --accent:                          #B86200;
+      --accent-hover:                    #005FB8E5;
+      --accent-pressed:                  #005FB8CC;
+      --accent-disabled:                 #00000037;
+      --accend-selected-text-background: #0078D4;
+
+      --control-border:                  linear-gradient(180deg, rgba(0, 0, 0, 0.0578) 90.58%, rgba(0, 0, 0, 0.1622) 100%);
+      --control-circle-border:           linear-gradient(180deg, rgba(0, 0, 0, 0.0578) 50.02%, rgba(0, 0, 0, 0.1622) 95.45%);
+      --control-accent-border:           linear-gradient(180deg, rgba(255, 255, 255, 0.08) 90.67%, rgba(0, 0, 0, 0.4) 100%);
+
+      --control-text-background:         #FBFBFB;
+      --control-text-border:             linear-gradient(180deg, rgba(0, 0, 0, 0.0578) 99.99%, rgba(0, 0, 0, 0.4458) 100%);
+      --control-text-border-focused:     linear-gradient(180deg, rgba(0, 0, 0, 0.0578) 96.87%, #0067C0 96.89%);
+
+      --focus-outline:                   #000000E4;
+      --focus-inner:                     #FFF;
+
+      // Card
+      --card-border:                     #75757566;
+      --card-background:                 #FFFFFFB2;
+      --card-secondary-background:       #F6F6F680;
+      --card-solid-background:           #FFF;
+      --card-solid-secondary-background: #F6F6F6;
+      --card-smoke-background:           #0000004D;
+      --card-layer-background:           #FFFFFF80;
+      --card-accent-background:          linear-gradient(0deg, #99EBFFCC, #99EBFFCC), #99EBFFE5;
+      --card-shadow:                     0px 16px 32px #0000002F, 0px 2px 10.67px #00000025;
+
+      // System
+      --system-attention:                #005FB7;
+      --system-success:                  #0F7B0F;
+      --system-caution:                  #9D5D00;
+      --system-critical:                 #C42B1C;
+      --system-neutral:                  #8A8A8A;
+
+      --system-attention-background:     #EEE;
+      --system-success-background:       #DFF6DD;
+      --system-caution-background:       #FFF4CE;
+      --system-critical-background:      #FDE7E9;
+      --system-neutral-background:       #F3F3F3;
+    }
+  }
+}

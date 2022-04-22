@@ -1,0 +1,67 @@
+:root {
+  --t-small: 'Segoe UI Variable Static Small', 'Segoe UI', 'SF Pro Text', sans-serif;
+  --t-text: 'Segoe UI Variable Static Text', 'Segoe UI', 'SF Pro Text', sans-serif;
+  --t-display: 'Segoe UI Variable Static Display', 'Segoe UI', 'SF Pro Display', sans-serif;
+}
+
+
+* {
+  font-family: var(--t-text);
+  font-weight: 400;
+  font-size:   14px;
+  line-height: 20px;
+}
+
+.t-caption {
+  font-family: var(--t-small);
+  font-weight: 400;
+  font-size:   12px;
+  line-height: 16px;
+}
+
+.t-strong {
+  font-family: var(--t-text);
+  font-weight: 600;
+  font-size:   14px;
+  line-height: 20px;
+}
+
+.t-large {
+  font-family: var(--t-text);
+  font-weight: 400;
+  font-size:   18px;
+  line-height: 24px;
+}
+
+.t-subtitle {
+  font-family: var(--t-display);
+  font-weight: 600;
+  font-size:   20px;
+  line-height: 28px;
+
+  @media (max-width: 480px) {
+    font-size:   17px;
+    line-height: 22px;
+  }
+}
+
+.t-title {
+  font-family: var(--t-display);
+  font-weight: 600;
+  font-size:   28px;
+  line-height: 36px;
+}
+
+.t-title-large {
+  font-family: var(--t-display);
+  font-weight: 600;
+  font-size:   40px;
+  line-height: 52px;
+}
+
+.t-display {
+  font-family: var(--t-display);
+  font-weight: 600;
+  font-size:   68px;
+  line-height: 92px;
+}

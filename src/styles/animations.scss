@@ -1,0 +1,24 @@
+:root {
+  // Position, Scale, Rotation
+  --fast-invoke:    cubic-bezier(0,0,0,1);
+  --fast-invoke-t1: 187ms cubic-bezier(0,0,0,1);
+  --fast-invoke-t2: 333ms cubic-bezier(0,0,0,1);
+  --fast-invoke-t3: 500ms cubic-bezier(0,0,0,1);
+
+  // Position, Scale
+  --strong-invoke:  cubic-bezier(0.13,1.62,0,0.92);
+  --strong-invoke-t1: 677ms cubic-bezier(0.13,1.62,0,0.92);
+
+  // Scale
+  --soft-dismiss: cubic-bezier(1,0,1,1);
+  --soft-dismiss-t1: 167ms cubic-bezier(1,0,1,1);
+
+  // Position, Scale, Rotation
+  --point-to-point: cubic-bezier(0.55,0.55,0,1);
+  --point-to-point-t1: 187ms cubic-bezier(0.55,0.55,0,1);
+  --point-to-point-t2: 333ms cubic-bezier(0.55,0.55,0,1);
+  --point-to-point-t3: 500ms cubic-bezier(0.55,0.55,0,1);
+  
+  // Opacity
+  --fade: 83ms opacity;
+}
